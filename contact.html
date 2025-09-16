@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact Myogyoji Temple</title>
+<meta name="description" content="Contact Myogyoji Temple in West Chicago. Ask about visiting, introductory meetings, and ceremonies.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/site.js"></script>
+</head>
+<body>
+<header><div class="container">
+  <nav class="nav" role="navigation" aria-label="Primary">
+    <a class="brand" href="index.html">NST Myogyoji Temple</a>
+    <a href="about.html">About</a>
+    <a href="basics.html">Basics of Practice</a>
+    <a href="faq.html">Facts & FAQ</a>
+    <a href="ceremonies.html">Ceremonies</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="plan-visit.html">Plan a Visit</a>
+    <a href="temples.html">Temples</a>
+    <a href="resources.html">Resources</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="news.html">News</a>
+    <a href="contact.html" aria-current="page">Contact</a>
+  </nav>
+</div></header>
+
+<main>
+  <section class="container">
+    <h1>Contact</h1>
+    <p>We’re happy to answer questions and help you begin practice.</p>
+
+    <div class="kv">
+      <div>
+        <h2>Temple Office</h2>
+        <p><strong>Myogyoji Temple (Nichiren Shoshu)</strong><br>
+        1S100 IL Route 59<br>West Chicago, IL 60185</p>
+        <p>Phone: <a href="tel:+16302935235">630-293-5235</a><br>
+        Email: <a href="mailto:chicagomyogyoji@gmail.com">chicagomyogyoji@gmail.com</a></p>
+      </div>
+      <div>
+        <h2>Message Us</h2>
+        <form name="contact" method="post" action="#" data-contact="true">
+          <label for="name">Your Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <label for="email">Your Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="msg">Message</label>
+          <textarea id="msg" name="message" rows="6" required></textarea>
+          <button class="cta" type="submit">Send</button>
+          <p class="small">This form sends to our Temple Master Sheet and alerts the office.</p>
+        </form>
+      </div>
+    </div>
+
+    <hr>
+    <div class="card">
+      <h3>Find a Nearby Member</h3>
+      <label for="zip">ZIP Code</label>
+      <input id="zip" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="e.g., 60607">
+      <button class="cta" type="button" data-nearby-btn>Find</button>
+      <pre class="small" data-nearby-out></pre>
+      <p class="small">Matches are based on the Members tab in our Temple Master Sheet.</p>
+    </div>
+
+  </section>
+</main>
+
+<footer><div class="container"><p>© <span id="y"></span> nstmyogyoji.org</p></div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>

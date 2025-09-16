@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>News & Announcements – Myogyoji Temple</title>
+<meta name="description" content="News and announcements from Myogyoji Temple in West Chicago. Stay updated on events, ceremonies, and messages from the Chief Priest.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/site.js"></script>
+</head>
+<body>
+<header><div class="container">
+  <nav class="nav" role="navigation" aria-label="Primary">
+    <a class="brand" href="index.html">NST Myogyoji Temple</a>
+    <a href="about.html">About</a>
+    <a href="basics.html">Basics</a>
+    <a href="faq.html">FAQ</a>
+    <a href="ceremonies.html">Ceremonies</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="plan-visit.html">Plan a Visit</a>
+    <a href="temples.html">Temples</a>
+    <a href="resources.html">Resources</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="news.html" aria-current="page">News</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</div></header>
+
+<main>
+  <section class="container">
+    <h1>News & Announcements</h1>
+    <p class="lead">Use Google Docs for posts and link them here, or ask us to auto-list Docs from Drive.</p>
+
+    <article class="card">
+      <h3>Monthly Oko Ceremony</h3>
+      <p class="small">Edit in Google Docs and link here, or enable auto-listing later.</p>
+    </article>
+
+    <article class="card">
+      <h3>Introductory Meeting</h3>
+      <p class="small">Edit in Google Docs and link here, or enable auto-listing later.</p>
+    </article>
+  </section>
+</main>
+
+<footer><div class="container"><p>© <span id="y"></span> nstmyogyoji.org</p></div></footer>
+<script>
+nstSite.injectJSONLD({
+  "@context":"https://schema.org","@type":"ItemList","name":"Myogyoji Temple News",
+  "itemListElement":[
+    {"@type":"NewsArticle","headline":"Monthly Oko Ceremony","datePublished":"2025-09-01","author":{"@type":"Organization","name":"Myogyoji Temple"},"publisher":{"@type":"Organization","name":"Myogyoji Temple"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.nstmyogyoji.org/news.html"}},
+    {"@type":"NewsArticle","headline":"Introductory Meeting","datePublished":"2025-08-30","author":{"@type":"Organization","name":"Myogyoji Temple"},"publisher":{"@type":"Organization","name":"Myogyoji Temple"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.nstmyogyoji.org/news.html"}}
+  ]
+});
+document.getElementById('y').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
