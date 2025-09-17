@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nichiren Shoshu Myogyoji Temple – True Buddhism in Chicagoland</title>
+<meta name="description" content="Myogyoji Temple practices and teaches Nichiren Shoshu True Buddhism in West Chicago, IL. Learn the basics, attend an introductory meeting, and plan a visit.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/favicon.png">
+<script defer src="js/site.js"></script>
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":["Place","Organization"],
+"name":"Nichiren Shoshu Myogyoji Temple",
+"url":"https://www.nstmyogyoji.org",
+"logo":"https://www.nstmyogyoji.org/assets/favicon.png",
+"address":{"@type":"PostalAddress","streetAddress":"1S100 IL Route 59","addressLocality":"West Chicago","addressRegion":"IL","postalCode":"60185","addressCountry":"US"},
+"telephone":"+1-630-293-5235",
+"sameAs":["https://www.nst.org/"]
+}
+</script>
+<script defer src="js/chatbot.js"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<header>
+  <div class="container topbar">
+    <a href="index.html" class="brand" aria-current="page">NST Myogyoji Temple</a>
+    <nav class="nav" role="navigation" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="basics.html">Basics of Practice</a>
+      <a href="faq.html">Facts & FAQ</a>
+      <a href="ceremonies.html">Ceremonies</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="plan-visit.html">Plan a Visit</a>
+      <a href="temples.html">Temples</a>
+      <a href="resources.html">Resources</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container hero">
+    <div>
+      <h1>Practice True Buddhism at Myogyoji Temple</h1>
+      <p class="lead">Nichiren Shoshu Buddhists carry out daily practice to transform karma and reveal inherent Buddhahood—bringing hope and benefit into everyday life. Join us to learn the essentials and experience practice in community at <strong>nstmyogyoji.org</strong>.</p>
+      <p>
+        <a class="cta" href="basics.html">Learn the Basics</a>
+        &nbsp;<a href="plan-visit.html">Plan a Visit</a>
+      </p>
+      <div class="notice small">
+        <strong>Introductory Meetings.</strong> New to practice? See <a href="plan-visit.html#intro">intro meetings</a> and <a href="calendar.html">calendar</a>.
+      </div>
+    </div>
+    <figure>
+      <img src="assets/hero-placeholder.jpg" alt="nstmyogyoji.org placeholder — welcoming view of the temple">
+    </figure>
+  </div>
+
+  <section>
+    <div class="container grid cards">
+      <article class="card">
+        <h3>Basics of Practice</h3>
+        <p>Daily chanting of <em>Nam-Myoho-Renge-Kyo</em> and recitation from the Lotus Sutra (Gongyo) before the Gohonzon are the core of Nichiren Shoshu practice.</p>
+        <p><a class="cta" href="basics.html">Start Here</a></p>
+      </article>
+      <article class="card">
+        <h3>Attend an Introductory Meeting</h3>
+        <p>Learn how practice works, how to begin, and how to connect with the community.</p>
+        <p><a class="cta" href="plan-visit.html#intro">See Intro Schedule</a></p>
+        <section aria-labelledby="gosho-highlight">
+    <div class="container home-highlights">
+      <article class="gosho-card">
+        <p class="gosho-meta">Gosho Passage · September 2025</p>
+        <h2 id="gosho-highlight">“Attaining Buddhahood in This Lifetime”</h2>
+        <blockquote>
+          “A mind that is presently clouded by illusions originating from the fundamental darkness of life is like a tarnished mirror. Yet, once it is polished, it will become a clear mirror of absolute truth. Arouse deep faith and polish your mirror night and day without neglect. How should you polish it? You should do so by single-mindedly chanting Nam-Myoho-Renge-Kyo.”
+        </blockquote>
+        <p class="small">—Nichiren Daishonin, <em>Attaining Buddhahood in This Lifetime</em> (Gosho, p. 46)</p>
+      </article>
+     
+      <article class="card">
+        <h3>Become a Member</h3>
+        <p>Speak with a priest or temple staff about taking faith and establishing daily practice.</p>
+        <p><a class="cta" href="contact.html">Contact the Temple</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="container kv">
+      <div>
+        <h3>Location</h3>
+        <p>1S100 IL Route 59, West Chicago, IL 60185</p>
+        <p class="small">See <a href="plan-visit.html#directions">directions & what to expect</a>.</p>
+      </div>
+      <div>
+        <h3>Today at the Temple</h3>
+        <p>Typical schedule includes morning and evening Gongyo and Shodai. See the <a href="calendar.html">calendar</a>.</p>
+        <span class="badge">Newcomers Welcome</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container">
+  <p><strong>Myogyoji Temple (Nichiren Shoshu)</strong> • 1S100 IL Route 59, West Chicago, IL 60185 • <a href="tel:+16302935235">630-293-5235</a> • <a href="mailto:chicagomyogyoji@gmail.com">chicagomyogyoji@gmail.com</a></p>
+  <p class="small">© <span id="y"></span> nstmyogyoji.org • Proudly sharing True Buddhism in Chicagoland.</p>
+</div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>

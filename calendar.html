@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Calendar & Temple Hours</title>
+<meta name="description" content="Daily temple hours and monthly schedule for Myogyoji Temple. See typical times for Gongyo and Shodai, plus special events and introductory meetings.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/site.js"></script>
+<script defer src="js/chatbot.js"></script>
+</head>
+<body>
+<header><div class="container">
+  <nav class="nav" role="navigation" aria-label="Primary">
+    <a class="brand" href="index.html">NST Myogyoji Temple</a>
+    <a href="about.html">About</a>
+    <a href="basics.html">Basics of Practice</a>
+    <a href="faq.html">Facts & FAQ</a>
+    <a href="ceremonies.html">Ceremonies</a>
+    <a href="calendar.html" aria-current="page">Calendar</a>
+    <a href="plan-visit.html">Plan a Visit</a>
+    <a href="temples.html">Temples</a>
+    <a href="resources.html">Resources</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</div></header>
+
+<main>
+  <section class="container">
+    <h1>Calendar & Temple Hours</h1>
+    <p class="lead">Editors: just drop the month’s PDFs into Drive. This page updates automatically on <strong>nstmyogyoji.org</strong>.</p>
+
+    <h2>Monthly Calendar (Latest PDF)</h2>
+    <div class="gdoc-embed" data-feed="calendar-latest">
+      <noscript><p>Open the monthly calendar PDF.</p></noscript>
+    </div>
+
+    <h2>Monthly Passage (Latest PDF)</h2>
+    <div class="gdoc-embed" data-feed="passage-latest">
+      <noscript><p>Open the monthly passage PDF.</p></noscript>
+    </div>
+
+    <h2>Daily Schedule (Typical)</h2>
+    <table aria-describedby="notes">
+      <thead><tr><th>Time</th><th>Activity</th></tr></thead>
+      <tbody>
+        <tr><td>6:00 – 7:00 AM</td><td>Shodai (Chanting)</td></tr>
+        <tr><td>7:00 AM</td><td>Morning Gongyo</td></tr>
+        <tr><td>5:30 – 6:30 PM</td><td>Shodai (Chanting)</td></tr>
+        <tr><td>6:30 PM</td><td>Evening Gongyo</td></tr>
+      </tbody>
+    </table>
+    <p id="notes" class="small">Times may shift for ceremonies and special meetings. Call <a href="tel:+16302935235">630-293-5235</a> to confirm.</p>
+  </section>
+</main>
+
+<footer><div class="container"><p>© <span id="y"></span> nstmyogyoji.org</p></div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>

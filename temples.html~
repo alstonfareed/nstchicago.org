@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Temples & Community</title>
+<meta name="description" content="Nichiren Shoshu temples serve practitioners around the world. Learn about the network of temples and how to connect wherever you are.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="container">
+  <nav class="nav" role="navigation" aria-label="Primary">
+    <a class="brand" href="index.html">NST Myogyoji Temple</a>
+    <a href="about.html">About</a>
+    <a href="basics.html">Basics of Practice</a>
+    <a href="faq.html">Facts & FAQ</a>
+    <a href="ceremonies.html">Ceremonies</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="plan-visit.html">Plan a Visit</a>
+    <a href="temples.html" aria-current="page">Temples</a>
+    <a href="resources.html">Resources</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</div></header>
+
+<main>
+  <section class="container">
+    <h1>Temples & Community</h1>
+    <p class="lead">Nichiren Shoshu has temples worldwide, including the Head Temple Taisekiji in Japan and local temples across North America. Myogyoji serves the Midwest.</p>
+
+    <div class="grid cards">
+      <article class="card">
+        <h3>Head Temple Taisekiji</h3>
+        <p>The Head Temple is located at the foot of Mt. Fuji in Japan. Pilgrimage (<em>Tozan</em>) is a profound opportunity to deepen faith.</p>
+      </article>
+      <article class="card">
+        <h3>Temples in North America</h3>
+        <p>Find the temple nearest you, connect for events and meetings, and learn more about practice in your area.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container"><p>© <span id="y"></span> nstmyogyoji.org</p></div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
