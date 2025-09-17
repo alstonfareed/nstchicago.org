@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Nichiren Shoshu crest</title>
+  <desc id="desc">Stylized lotus crest framed by a gold ring.</desc>
+  <defs>
+    <radialGradient id="lotusGradient" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#fef6eb" />
+      <stop offset="60%" stop-color="#f2d9a6" />
+      <stop offset="100%" stop-color="#d4a73d" />
+    </radialGradient>
+    <linearGradient id="petalGradient" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#b72338" />
+      <stop offset="100%" stop-color="#7f1526" />
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="#9b1b30" opacity="0.12" />
+  <circle cx="60" cy="60" r="50" fill="url(#lotusGradient)" stroke="#9b1b30" stroke-width="4" />
+  <g fill="url(#petalGradient)" stroke="#7f1526" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M60 28c-8 8-14 20-14 31 0 11 6 21 14 29 8-8 14-18 14-29 0-11-6-23-14-31z" />
+    <path d="M35 45c-4 6-7 13-7 20 0 12 9 21 21 23-1-9-3-17-3-25 0-6 1-12 3-18-5 0-10 0-14 0z" />
+    <path d="M85 45c-4 0-9 0-14 0 2 6 3 12 3 18 0 8-2 16-3 25 12-2 21-11 21-23 0-7-3-14-7-20z" />
+    <path d="M40 80c5 10 12 19 20 24 8-5 15-14 20-24-6 2-13 4-20 4s-14-2-20-4z" />
+  </g>
+  <circle cx="60" cy="60" r="10" fill="#9b1b30" opacity="0.25" />
+  <circle cx="60" cy="60" r="6" fill="#9b1b30" />
+</svg>

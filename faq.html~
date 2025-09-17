@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Facts & Frequently Asked Questions</title>
+<meta name="description" content="Answers to common questions: What is Buddhism? Who is Nichiren Daishonin? What is karma? What is benefit? What are the Three Treasures?">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="container">
+  <nav class="nav" role="navigation" aria-label="Primary">
+    <a class="brand" href="index.html">NST Myogyoji Temple</a>
+    <a href="about.html">About</a>
+    <a href="basics.html">Basics of Practice</a>
+    <a href="faq.html" aria-current="page">Facts & FAQ</a>
+    <a href="ceremonies.html">Ceremonies</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="plan-visit.html">Plan a Visit</a>
+    <a href="temples.html">Temples</a>
+    <a href="resources.html">Resources</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</div></header>
+
+<main>
+  <section class="container">
+    <h1>Facts & Frequently Asked Questions</h1>
+    <div class="grid">
+      <article class="card"><h3>What is Buddhism?</h3><p>Buddhism teaches the ultimate Law underlying life and the universe. In Nichiren Shoshu, we reveal this Law—<em>Myoho-Renge-Kyo</em>—through practice.</p></article>
+      <article class="card"><h3>Who is Nichiren Daishonin?</h3><p>The founder of Nichiren Shoshu Buddhism in 13th-century Japan, who revealed the means for people in this age to attain Buddhahood.</p></article>
+      <article class="card"><h3>What is Karma?</h3><p>Karma means action and its effects. Through correct practice, we transform negative causes and create benefit for ourselves and others.</p></article>
+      <article class="card"><h3>What is “benefit”?</h3><p>Visible and invisible positive effects from faith and practice—ranging from inner stability to improved circumstances.</p></article>
+      <article class="card"><h3>What are the Three Treasures?</h3><p>The Buddha, the Law, and the priesthood—protected and transmitted in Nichiren Shoshu temples worldwide.</p></article>
+    </div>
+  </section>
+</main>
+
+<footer><div class="container"><p>© <span id="y"></span> nstmyogyoji.org</p></div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <pattern id="vine" width="120" height="120" patternUnits="userSpaceOnUse">
+      <rect width="120" height="120" fill="#f6f1eb" />
+      <g fill="none" stroke="#d8c8b8" stroke-width="1.6" opacity="0.55">
+        <path d="M10 20c18 0 26-14 50-14s32 14 50 14" />
+        <path d="M10 60c18 0 26-14 50-14s32 14 50 14" />
+        <path d="M10 100c18 0 26-14 50-14s32 14 50 14" />
+        <path d="M0 36c10 4 18 14 18 24s-8 20-18 24" />
+        <path d="M120 36c-10 4-18 14-18 24s8 20 18 24" />
+        <circle cx="60" cy="18" r="8" />
+        <circle cx="60" cy="58" r="8" />
+        <circle cx="60" cy="98" r="8" />
+      </g>
+    </pattern>
+  </defs>
+  <rect width="240" height="240" fill="url(#vine)" />
+</svg>

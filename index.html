@@ -26,7 +26,10 @@
 <a href="#main" class="skip-link">Skip to content</a>
 <header>
   <div class="container topbar">
-    <a href="index.html" class="brand" aria-current="page">NST Myogyoji Temple</a>
+    <a href="index.html" class="brand">
+      <img src="assets/top_logo.svg" class="brand-mark" alt="NST Myogyoji Temple crest">
+      <span class="brand-text">NST Myogyoji Temple</span>
+    </a>
     <nav class="nav" role="navigation" aria-label="Primary">
       <a href="index.html" aria-current="page">Home</a>
       <a href="about.html">About</a>
@@ -45,23 +48,61 @@
 </header>
 
 <main id="main">
-  <div class="container hero">
-    <div>
-      <h1>Practice True Buddhism at Myogyoji Temple</h1>
-      <p class="lead">Nichiren Shoshu Buddhists carry out daily chanting, study, and temple activities to transform karma and reveal inherent Buddhahood. Experience the rhythm of faith, practice, and study in community—online and in person—at <strong>nstmyogyoji.org</strong>.</p>
-      <p>
-        <a class="cta" href="basics.html">Learn the Basics</a>
-        &nbsp;<a class="cta-inline" href="calendar.html#this-week">Join Us for Gongyo</a>
-        &nbsp;<a href="plan-visit.html">Plan a Visit</a>
-      </p>
-      <div class="notice small">
-        <strong>Introductory Meetings.</strong> Sundays after Morning Gongyo and Wednesdays at 6:30 PM (slow Gongyo for beginners). Reserve your spot on the <a href="plan-visit.html#intro">plan a visit page</a> and preview the <a href="calendar.html#detailed-schedule">full schedule</a>.
+  <section class="hero hero-pattern" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="badge">Nichiren Shoshu in Chicagoland</span>
+        <h1 id="hero-title">Practice True Buddhism at Myogyoji Temple</h1>
+        <p class="lead">Myogyoji Temple is a Nichiren Shoshu (日蓮正宗) Buddhist temple in West Chicago, Illinois. Together we chant Nam-Myoho-Renge-Kyo, study the Gosho, and share the Mystic Law so every person can reveal Buddhahood.</p>
+        <p>Whether you are encountering Buddhism for the first time or deepening long-standing faith, you will find priests and members ready to welcome you, answer questions, and chant alongside you. Each meeting, study session, and ceremony is a moment to polish the mirror of life and draw out wisdom, courage, and joy.</p>
+        <div class="hero-cta">
+          <a class="cta" href="plan-visit.html#intro">Plan a Visit</a>
+          <a class="cta-inline" href="basics.html">Learn to Chant</a>
+          <a class="cta-inline" href="assets/img/Intro.mp4">Intro Video (MP4)</a>
+          <a href="calendar.html#this-week">Weekly Schedule</a>
+        </div>
+        <div class="notice small">
+          <strong>Introductory Meetings.</strong> Sundays after Morning Gongyo and Wednesdays at 6:30 PM (slow Gongyo for beginners). Reserve your spot on the <a href="plan-visit.html#intro">plan a visit page</a> and preview the <a href="calendar.html#detailed-schedule">full schedule</a>.
+        </div>
+      </div>
+      <div class="hero-media">
+        <figure class="hero-photo">
+          <img src="assets/img/myogyoji_group.jpg" alt="Sangha members gathered at Myogyoji Temple" loading="lazy">
+        </figure>
+        <div class="hero-video-card" id="intro-video">
+          <h2>Watch: Introduction to Nichiren Shoshu</h2>
+          <video controls preload="metadata" poster="assets/img/myogyoji_group.jpg">
+            <source src="assets/img/Intro.mp4" type="video/mp4">
+            Your browser does not support embedded video. <a href="assets/img/Intro.mp4">Download the intro video</a> instead.
+          </video>
+          <p class="small">Prefer streaming? <a href="https://youtube.com/@nichirenshoshumyogyojibuddhist?si=LNhzrGylTMDNgv65" target="_blank" rel="noopener">Visit our YouTube channel</a> for lectures, daimoku, and ceremonies.</p>
+        </div>
       </div>
     </div>
-    <figure>
-      <img src="assets/img/myogyoji_group.jpg" alt="Sangha members gathered at Myogyoji Temple" loading="lazy">
-    </figure>
-  </div>
+  </section>
+
+  <section aria-labelledby="goal-of-practice">
+    <div class="container">
+      <div class="grid cards">
+        <article class="card">
+          <h2 id="goal-of-practice">The Goal of Practice</h2>
+          <p>The purpose of Buddhism is to awaken the highest life-condition of enlightenment—profound wisdom, indestructible happiness, and the strength to overcome every obstacle. Practice is inseparable from daily life. By chanting <em>Nam-Myoho-Renge-Kyo</em>, performing Gongyo, and participating in study and ceremonies, we experience visible benefit and inner transformation.</p>
+        </article>
+        <article class="card">
+          <h2 id="two-aspects">Two Aspects of Practice</h2>
+          <p>Nichiren Shoshu shows that practice flows in two directions that constantly support one another.</p>
+          <ul>
+            <li><strong>For oneself:</strong> Chanting, doing Gongyo, studying, and attending ceremonies to polish our lives.</li>
+            <li><strong>For others:</strong> Sharing Buddhism so friends and family can begin their own practice—this is <em>shakubuku</em>.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2 id="our-mission">Our Shared Mission</h2>
+          <p>Nichiren Daishonin entrusted us with two great vows: to reveal our own Buddhahood and to help realize a peaceful, happy world through the spread of the Mystic Law—<em>kosen-rufu</em>. Visit Myogyoji Temple, connect with the community, and experience first-hand how True Buddhism brings out courage, clarity, and joy.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
   <section aria-labelledby="gosho-highlight">
     <div class="container home-highlights">
@@ -74,17 +115,53 @@
         <p class="small">—Nichiren Daishonin, <em>Attaining Buddhahood in This Lifetime</em> (Gosho, p. 46)</p>
       </article>
       <article class="schedule-card" aria-labelledby="next-ceremony">
-        <h2 id="next-ceremony">Next Ceremony</h2>
-        <p><strong>Sunday, September 7, 2025</strong></p>
+        <h2 id="next-ceremony">Sunday Ceremony Snapshot</h2>
+        <p class="small">September 2025</p>
         <ul class="schedule-list">
-          <li><time datetime="2025-09-07T09:00">9:00 AM</time> Kofu Shodaikai</li>
-          <li><time datetime="2025-09-07T10:00">10:00 AM</time> Morning Gongyo &amp; Group Memorial</li>
+          <li>
+            <time datetime="2025-09-07">Sep 7</time>
+            <div>
+              <strong>9:00 AM</strong> · Kofu Shodaikai<br>
+              <strong>10:00 AM</strong> · Morning Gongyo &amp; Group Memorial
+            </div>
+          </li>
+          <li>
+            <time datetime="2025-09-14">Sep 14</time>
+            <div>
+              <strong>9:00 AM</strong> · Shodai<br>
+              <strong>10:00 AM</strong> · Morning Gongyo<br>
+              <strong>11:00 AM</strong> · Oko Ceremony
+            </div>
+          </li>
+          <li>
+            <time datetime="2025-09-21">Sep 21</time>
+            <div>
+              <strong>9:00 AM</strong> · Shodai<br>
+              <strong>10:00 AM</strong> · Morning Gongyo &amp; Higan-E Ceremony<br>
+              <strong>11:00 AM</strong> · Study / Introduction Meeting
+            </div>
+          </li>
+          <li>
+            <time datetime="2025-09-28">Sep 28</time>
+            <div>
+              <strong>9:00 AM</strong> · Shodai<br>
+              <strong>10:00 AM</strong> · Morning Gongyo<br>
+              <strong>11:00 AM</strong> · Study / Introduction Meeting
+            </div>
+          </li>
+          <li>
+            <time datetime="2025-10-05">Oct 5</time>
+            <div>
+              <strong>9:00 AM</strong> · Shodai<br>
+              <strong>10:00 AM</strong> · Morning Gongyo &amp; Group Memorial
+            </div>
+          </li>
         </ul>
         <div class="schedule-actions">
-          <a class="cta" href="calendar.html#detailed-schedule">View full schedule</a>
+          <a class="cta" href="calendar.html#detailed-schedule">Detailed schedule</a>
           <a href="calendar.html#this-week">This week at a glance</a>
         </div>
-        <p class="schedule-notes small">Introductory discussion follows Sunday Gongyo. All are welcome—bring family and friends.</p>
+        <p class="schedule-notes small">Introductory discussion follows Sunday Gongyo each week. Bring family and friends to learn together.</p>
       </article>
     </div>
   </section>
@@ -93,6 +170,16 @@
     <div class="container">
       <h2 id="home-actions" class="visually-hidden">Ways to get involved</h2>
       <div class="home-articles">
+        <article class="card">
+          <h3>Dive Deeper into the Teachings</h3>
+          <p>Explore cornerstone articles that answer the most common questions about faith, practice, and study.</p>
+          <ul class="faq-articles">
+            <li><a href="what-is-buddhism.html">What is Buddhism?</a></li>
+            <li><a href="what-is-nam-myoho-renge-kyo.html">What is Nam-Myoho-Renge-Kyo?</a></li>
+            <li><a href="basics.html#daily-practice">Daily Buddhist Practice</a></li>
+            <li><a href="faq.html#what-is-kosen-rufu">What is Kosen-rufu?</a></li>
+          </ul>
+        </article>
         <article class="card">
           <h3>Beginner’s Path</h3>
           <p>Follow five clear steps to begin chanting, set up a home altar, and connect with a support group. Use the downloadable checklist to build momentum.</p>
@@ -161,7 +248,7 @@
           <li><time datetime="2025-09-07T09:00">Sun · 9:00 AM</time> Kofu Shodaikai</li>
           <li><time datetime="2025-09-10T18:30">Wed · 6:30 PM</time> Slow Gongyo &amp; Study Meeting</li>
         </ul>
-        <p class="small">Find more ceremonies on the <a href="calendar.html#this-week">calendar snapshot</a>.</p>
+        <p class="small">Find more ceremonies on the <a href="calendar.html#this-week">calendar snapshot</a> or download the <a href="calendar.html#detailed-schedule">detailed schedule</a>.</p>
       </div>
       <div>
         <h2>New to Practice?</h2>
@@ -171,7 +258,6 @@
     </div>
   </section>
 </main>
-
 
 <footer>
   <div class="container footer-content">
@@ -183,9 +269,8 @@
     <div class="footer-connect">
       <h3 class="footer-heading">Connect with us</h3>
       <ul class="social-links" aria-label="Myogyoji Temple social media">
-        <li><a href="https://www.facebook.com/NSTMyogyoji" target="_blank" rel="noopener">Facebook</a></li>
-        <li><a href="https://www.instagram.com/nstmyogyoji" target="_blank" rel="noopener">Instagram</a></li>
-        <li><a href="https://www.youtube.com/@NSTMyogyoji" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://www.facebook.com/groups/502481574278250/" target="_blank" rel="noopener">Facebook Community</a></li>
+        <li><a href="https://youtube.com/@nichirenshoshumyogyojibuddhist?si=LNhzrGylTMDNgv65" target="_blank" rel="noopener">YouTube Channel</a></li>
       </ul>
       <p class="small">Share upcoming ceremonies or FAQ articles with family and friends.</p>
     </div>

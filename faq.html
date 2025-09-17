@@ -6,39 +6,499 @@
 <meta name="description" content="Answers to common questions: What is Buddhism? Who is Nichiren Daishonin? What is karma? What is benefit? What are the Three Treasures?">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/favicon.png">
+<script defer src="js/site.js"></script>
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":["Place","Organization"],
+"name":"Nichiren Shoshu Myogyoji Temple",
+"url":"https://www.nstmyogyoji.org",
+"logo":"https://www.nstmyogyoji.org/assets/favicon.png",
+"address":{"@type":"PostalAddress","streetAddress":"1S100 IL Route 59","addressLocality":"West Chicago","addressRegion":"IL","postalCode":"60185","addressCountry":"US"},
+"telephone":"+1-630-293-5235",
+"sameAs":["https://www.nst.org/"]
+}
+</script>
+<script defer src="js/chatbot.js"></script>
 </head>
 <body>
-<header><div class="container">
-  <nav class="nav" role="navigation" aria-label="Primary">
-    <a class="brand" href="index.html">NST Myogyoji Temple</a>
-    <a href="about.html">About</a>
-    <a href="basics.html">Basics of Practice</a>
-    <a href="faq.html" aria-current="page">Facts & FAQ</a>
-    <a href="ceremonies.html">Ceremonies</a>
-    <a href="calendar.html">Calendar</a>
-    <a href="plan-visit.html">Plan a Visit</a>
-    <a href="temples.html">Temples</a>
-    <a href="resources.html">Resources</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="news.html">News</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</div></header>
+<a href="#main" class="skip-link">Skip to content</a>
+<header>
+  <div class="container topbar">
+    <a href="index.html" class="brand">
+      <img src="assets/top_logo.svg" class="brand-mark" alt="">
+      <span class="brand-text">NST Myogyoji Temple</span>
+    </a>
+    <nav class="nav" role="navigation" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="basics.html">Basics of Practice</a>
+      <a href="faq.html" aria-current="page">Facts & FAQ</a>
+      <a href="ceremonies.html">Ceremonies</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="plan-visit.html">Plan a Visit</a>
+      <a href="temples.html">Temples</a>
+      <a href="resources.html">Resources</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
-<main>
-  <section class="container">
+<main id="main">
+  <section class="container faq-intro">
     <h1>Facts & Frequently Asked Questions</h1>
-    <div class="grid">
-      <article class="card"><h3>What is Buddhism?</h3><p>Buddhism teaches the ultimate Law underlying life and the universe. In Nichiren Shoshu, we reveal this Law—<em>Myoho-Renge-Kyo</em>—through practice.</p></article>
-      <article class="card"><h3>Who is Nichiren Daishonin?</h3><p>The founder of Nichiren Shoshu Buddhism in 13th-century Japan, who revealed the means for people in this age to attain Buddhahood.</p></article>
-      <article class="card"><h3>What is Karma?</h3><p>Karma means action and its effects. Through correct practice, we transform negative causes and create benefit for ourselves and others.</p></article>
-      <article class="card"><h3>What is “benefit”?</h3><p>Visible and invisible positive effects from faith and practice—ranging from inner stability to improved circumstances.</p></article>
-      <article class="card"><h3>What are the Three Treasures?</h3><p>The Buddha, the Law, and the priesthood—protected and transmitted in Nichiren Shoshu temples worldwide.</p></article>
+    <p class="lead">Explore Nichiren Shoshu Buddhism through grouped topics, practical examples, and Gosho guidance. Use the search bar to find specific keywords or browse the categories to see how practice, study, and community weave together at Myogyoji Temple.</p>
+    <div class="faq-search">
+      <label for="faq-search" class="visually-hidden">Search the FAQ</label>
+      <input type="search" id="faq-search" placeholder="Search for questions or keywords" autocomplete="off">
     </div>
+    <p class="small faq-share-feedback" data-share-status role="status" aria-live="polite"></p>
   </section>
-</main>
 
-<footer><div class="container"><p>© <span id="y"></span> nstmyogyoji.org</p></div></footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
-</body>
-</html>
+  <section class="container faq-layout">
+    <aside class="faq-nav">
+      <nav aria-label="FAQ categories">
+        <ul>
+          <li><a href="#faq-basics">Basics of Buddhism</a></li>
+          <li><a href="#faq-practice">Practice &amp; Faith</a></li>
+          <li><a href="#faq-community">Community &amp; Tradition</a></li>
+          <li><a href="#faq-clarifications">Comparisons &amp; Clarifications</a></li>
+        </ul>
+      </nav>
+      <div class="faq-resources">
+        <h2>Recommended reading</h2>
+        <p>Ready for longer-form study? Start with these in-depth guides at the end of the page.</p>
+        <ul class="faq-articles">
+          <li><a href="#article-beginners-path">Beginner’s Path: Five Steps to Start</a></li>
+          <li><a href="#article-glossary">Glossary of Key Terms</a></li>
+          <li><a href="#article-buddhism-today">Buddhism Today: Practicing in Modern Life</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="faq-groups">
+      <div class="faq-empty" data-faq-empty aria-hidden="true">
+        <p>No matches found. Try another keyword or explore a different category.</p>
+      </div>
+
+      <section class="faq-group" id="faq-basics">
+        <h2>Basics of Buddhism</h2>
+        <div class="faq-items">
+          <article class="faq-item" id="what-is-buddhism" data-keywords="foundation dharma lotus law life enlightenment">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🪷</span>What is Buddhism?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Buddhism teaches that every being possesses an enlightened nature, and that the rhythm governing the universe—Myoho-Renge-Kyo—can be experienced in daily life. Nichiren Shoshu clarifies that this universal Law is not an abstract philosophy; it is activated when we chant and align our actions with compassionate wisdom. By practicing, studying, and sharing Buddhism with others, we polish our lives like mirrors so that courage, wisdom, and benefit naturally emerge.</p>
+            <div class="faq-more" hidden>
+              <p>Nichiren Daishonin taught that the purpose of Buddhism is to enable people “to enjoy happiness in the present world.” The Law is accessible to anyone, regardless of background or past causes. When we chant Nam-Myoho-Renge-Kyo before the Gohonzon, we activate the same enlightened life-condition embodied by the Buddha. Over time, we feel an unshakeable life state and see visible improvements in relationships, work, health, and community.</p>
+              <p>Three essentials guide our growth: faith (confidence in the Law), practice (chanting and Gongyo), and study (learning the teachings). Each supports the others. Sharing Buddhism with friends or family expands our own life force and advances kosen-rufu—the widespread propagation of true Buddhism.</p>
+              <p class="small">Read the full article: <a href="what-is-buddhism.html">What is Buddhism?</a></p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-buddhism" data-share-title="What is Buddhism?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-buddhism" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Discover%20the%20heart%20of%20Nichiren%20Shoshu%20Buddhism&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-buddhism" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="who-is-shakyamuni" data-keywords="shakyamuni founder india enlightenment lotus sutra">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🌄</span>Who is Shakyamuni Buddha?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Shakyamuni lived in India about 3,000 years ago. He awakened to the truth that life is governed by cause and effect and shared methods to overcome suffering. His highest teaching, the Lotus Sutra, predicts the appearance of the True Buddha who would reveal the Law for the Latter Day of the Law.</p>
+            <div class="faq-more" hidden>
+              <p>Shakyamuni’s example shows how to seek the Law and dedicate our lives to relieving others’ suffering. Yet, he also stated that his teachings would gradually lose efficacy after 2,000 years. He therefore urged people to follow the successor who would reveal the ultimate Law—fulfilling the prophecy that Nichiren Daishonin later proved.</p>
+              <p class="small">Related study: <a href="faq.html#what-is-lotus-sutra">What is the Lotus Sutra?</a></p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#who-is-shakyamuni" data-share-title="Who is Shakyamuni?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23who-is-shakyamuni" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Learn%20about%20Shakyamuni%20Buddha%20and%20the%20Lotus%20Sutra&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23who-is-shakyamuni" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="what-is-lotus-sutra" data-keywords="lotus sutra scripture law teaching prophecy ceremony in air">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">📖</span>What is the Lotus Sutra?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">The Lotus Sutra is Shakyamuni’s highest teaching. It proclaims that all people can reveal Buddhahood and predicts the appearance of the True Buddha who will establish the practice for the Latter Day of the Law.</p>
+            <div class="faq-more" hidden>
+              <p>Across 28 chapters, the Lotus Sutra reveals that the Buddha’s life span is eternal and that his enlightenment serves to awaken others. It describes the Ceremony in the Air—a grand gathering where countless Buddhas entrust disciples to spread the Mystic Law.</p>
+              <p>Nichiren Daishonin identified the essence of the sutra as Nam-Myoho-Renge-Kyo and inscribed the Gohonzon so we can directly access that ceremony each time we chant. Every Gongyo recitation includes excerpts from Chapters Two and Sixteen, keeping us in rhythm with the sutra.</p>
+              <p class="small">Read the full article: <a href="what-is-nam-myoho-renge-kyo.html">What is Nam-Myoho-Renge-Kyo?</a></p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-lotus-sutra" data-share-title="What is the Lotus Sutra?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-lotus-sutra" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Explore%20the%20Lotus%20Sutra%20in%20Nichiren%20Shoshu&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-lotus-sutra" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="who-is-nichiren" data-keywords="nichiren daishonin founder 13th century reformer">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🖋️</span>Who is Nichiren Daishonin?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Nichiren Daishonin (1222–1282) is the founder of Nichiren Shoshu. Living in 13th-century Japan, he studied every Buddhist teaching available, then declared that chanting Nam-Myoho-Renge-Kyo—derived from the Lotus Sutra—is the sole practice that enables all people to achieve enlightenment in the Latter Day of the Law. He inscribed the Dai-Gohonzon so that future generations could experience the same life state as the Buddha.</p>
+            <div class="faq-more" hidden>
+              <p>Nichiren endured persecution, exile, and assassination attempts because he unflinchingly refuted erroneous teachings and protected the correct Law. His writings, the Gosho, give precise guidance on faith, daily practice, and fostering harmonious communities. He taught disciples to unite with the High Priest of the Head Temple to maintain the pure lineage of the Three Treasures.</p>
+              <p>Studying Nichiren’s life shows how one person’s vow can transform society. His spirit lives on when we chant with determination, share Buddhism, and support our temple so countless people can awaken to their true potential.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#who-is-nichiren" data-share-title="Who is Nichiren Daishonin?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23who-is-nichiren" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Meet%20Nichiren%20Daishonin%2C%20founder%20of%20Nichiren%20Shoshu&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23who-is-nichiren" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="what-is-karma" data-keywords="karma cause effect benefit responsibility hope">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🔁</span>What is karma?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Karma means “action.” Every thought, word, and deed leaves an imprint in our lives that manifests as present or future results. Rather than a fatalistic verdict, Nichiren Shoshu teaches karma as a hopeful principle: by chanting Nam-Myoho-Renge-Kyo and taking constructive action, we transform negative causes and create benefit for ourselves, our families, and society.</p>
+            <div class="faq-more" hidden>
+              <p>Nichiren likened karma to seeds that produce flowers or weeds depending on what we plant. When we chant, study, and act based on the Gohonzon, we infuse even past causes with the energy of the Mystic Law. Old sufferings can become fuel for growth, wisdom, and compassion. We prove this through concrete victories—better health, reconciled relationships, steady finances, or newfound purpose.</p>
+              <p>Supporting others to chant also changes karma because it is the most compassionate action. As we help each other overcome hardships, we strengthen the itai-doshin spirit of unity in diversity.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-karma" data-share-title="What is karma?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-karma" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Transform%20karma%20through%20Nam-Myoho-Renge-Kyo&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-karma" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="what-are-the-ten-worlds" data-keywords="ten worlds life states buddhism happiness potential">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🌏</span>What are the Ten Worlds?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">The Ten Worlds describe ten life conditions—from Hell, Hunger, and Anger up to Bodhisattva and Buddhahood—that we experience moment to moment. Nichiren Shoshu explains that these states exist within each person. Through chanting, we elevate our basic life tendency so that higher worlds like Learning, Realization, Bodhisattva, and Buddha emerge more often, even in challenging situations.</p>
+            <div class="faq-more" hidden>
+              <p>Recognizing the Ten Worlds helps us respond wisely to our own emotions and to others. Chanting Nam-Myoho-Renge-Kyo instantly taps Buddhahood, which includes all worlds in harmony. As a result, we can transform anger into determination, or anxiety into compassion-driven action.</p>
+              <p>Daily practice and temple activities nurture the Bodhisattva world—caring for others—while study deepens wisdom. This internal change naturally influences our environment, showing that true revolution starts within.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-are-the-ten-worlds" data-share-title="What are the Ten Worlds?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-are-the-ten-worlds" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Understand%20the%20Ten%20Worlds%20of%20life%20state&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-are-the-ten-worlds" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq-group" id="faq-practice">
+        <h2>Practice &amp; Faith</h2>
+        <div class="faq-items">
+          <article class="faq-item" id="what-is-nam-myoho" data-keywords="nam myoho renge kyo daimoku mystic law chanting">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🔔</span>What is Nam-Myoho-Renge-Kyo?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Nam-Myoho-Renge-Kyo is the mystic Law of cause and effect simultaneously embodying both the seed and the fruit of enlightenment. Chanting these words summons the life-condition of Buddhahood within us and harmonizes our lives with the ultimate rhythm of the universe.</p>
+            <div class="faq-more" hidden>
+              <p>“Nam” means to devote one’s life; “Myoho” is the mystic law of life and death; “Renge” symbolizes simultaneous cause and effect through the lotus blossom; “Kyo” indicates the eternal sound and teaching. Each daimoku (chant) is a vow to act with courage and compassion.</p>
+              <p>Nichiren called Nam-Myoho-Renge-Kyo the “title and essence” of the Lotus Sutra. Chanting daily, even for a few minutes at first, leads to a powerful inner shift, helping us overcome obstacles and bring benefit to our families, workplaces, and communities.</p>
+              <p class="small">Dive deeper: <a href="what-is-nam-myoho-renge-kyo.html">What is Nam-Myoho-Renge-Kyo?</a></p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-nam-myoho" data-share-title="What is Nam-Myoho-Renge-Kyo?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-nam-myoho" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Chant%20Nam-Myoho-Renge-Kyo%20and%20reveal%20Buddhahood&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-nam-myoho" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="what-is-gohonzon" data-keywords="gohonzon mandala object of worship altar faith">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🖼️</span>What is the Gohonzon?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">The Gohonzon is the sacred mandala inscribed by Nichiren Daishonin, embodying the enlightened life of the True Buddha. Enshrined at Head Temple Taisekiji and transcribed by the High Priest, it is bestowed upon believers so they can chant directly to the Mystic Law.</p>
+            <div class="faq-more" hidden>
+              <p>The characters on the Gohonzon depict the ceremony where Buddhas, bodhisattvas, and protective forces pledge to safeguard practitioners of Nam-Myoho-Renge-Kyo. When we chant before the Gohonzon, our lives enter that ceremony, fusing with the wisdom and compassion it represents.</p>
+              <p>Receiving the Gohonzon is a profound step rooted in faith, practice, and study. Temple guidance ensures we understand how to care for it respectfully and integrate daily practice into our lives.</p>
+              <p class="small">Related: <a href="faq.html#meaning-of-practice">Meaning of Practice</a></p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-gohonzon" data-share-title="What is the Gohonzon?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-gohonzon" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Learn%20about%20the%20Gohonzon%20in%20Nichiren%20Shoshu&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-gohonzon" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="what-is-gongyo" data-keywords="gongyo liturgy prayers lotus sutra recitation">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">📜</span>What is Gongyo?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Gongyo is the daily recitation of key portions from the Lotus Sutra combined with silent prayers. Performed morning and evening, it supports chanting and deepens our connection to the Gohonzon.</p>
+            <div class="faq-more" hidden>
+              <p>During Gongyo we recite the <em>Hoben</em> (Expedient Means) and <em>Juryo</em> (Life Span) chapters in Japanese, then offer five silent prayers expressing gratitude to the Three Treasures and pledging to advance kosen-rufu. The rhythm of Gongyo sharpens our determination and nourishes consistency.</p>
+              <p>At Myogyoji, beginners can attend slow Gongyo sessions on Wednesday evenings to learn pronunciation and rhythm. Practicing together creates unity and encouragement.</p>
+              <p class="small">See the <a href="basics.html#daily-practice">Daily Practice</a> section for step-by-step guidance.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-gongyo" data-share-title="What is Gongyo?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-gongyo" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Learn%20how%20to%20do%20Gongyo&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-gongyo" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="meaning-of-practice" data-keywords="practice meaning faith study discipline benefit">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🧭</span>What is the meaning of practice?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Practice in Nichiren Shoshu means uniting faith, chanting, Gongyo, and study to transform our karma and help others do the same. It is called the “heart of practice” because it makes the teachings real in daily life.</p>
+            <div class="faq-more" hidden>
+              <p>Nichiren Daishonin encouraged disciples to balance “practice for oneself” (chanting, study, Gongyo) with “practice for others” (sharing Buddhism, supporting the temple). This balance mirrors the two wheels of a cart—both must turn together.</p>
+              <p>When we chant with determination and take action, we gain confidence that our lives are one with the Mystic Law. This confidence is called faith, and it deepens each time we experience actual proof.</p>
+              <p class="small">Continue reading: <a href="what-is-purpose-of-faith.html">What is the Purpose of Faith?</a></p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#meaning-of-practice" data-share-title="Meaning of Practice">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23meaning-of-practice" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Discover%20the%20meaning%20of%20Buddhist%20practice&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23meaning-of-practice" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="what-is-juzu" data-keywords="juzu beads prayer accessory etiquette practice">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">📿</span>What are Juzu beads?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Juzu (also called juzu beads) are traditional prayer beads used during chanting and Gongyo. They symbolize the unity of practitioner, Law, and environment, and remind us to stay focused on sincere prayer.</p>
+            <div class="faq-more" hidden>
+              <p>Nichiren Shoshu juzu typically feature two large beads (parent beads) representing the Buddha and the Law, with 108 smaller beads symbolizing earthly desires. Holding the juzu respectfully reinforces our vow to transform desires into enlightenment.</p>
+              <p>Temple staff can show proper etiquette for draping the juzu over your hands during practice.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-juzu" data-share-title="What are Juzu beads?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-juzu" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Learn%20about%20Juzu%20prayer%20beads&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-juzu" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="what-is-purpose-of-faith" data-keywords="faith purpose courage wisdom trust">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🕯️</span>What is the purpose of faith?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Faith is the confidence that Nam-Myoho-Renge-Kyo is the ultimate Law of life. It empowers us to rely on the Mystic Law during hardships, draw out wisdom, and experience proof that practice works.</p>
+            <div class="faq-more" hidden>
+              <p>Nichiren taught that faith is “the parent of victory.” It grows through chanting, study, and encouragement from the temple community. As we see results, our conviction becomes unshakable.</p>
+              <p>Faith also means trusting the lineage of the Three Treasures—the Buddha (Nichiren Daishonin), the Law (Nam-Myoho-Renge-Kyo), and the Priesthood (the High Priest and temple priests)—who preserve the pure teaching.</p>
+              <p class="small">Full article: <a href="what-is-purpose-of-faith.html">What is the Purpose of Faith?</a></p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-purpose-of-faith" data-share-title="What is the Purpose of Faith?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-purpose-of-faith" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Discover%20the%20purpose%20of%20faith%20in%20Nichiren%20Shoshu&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-purpose-of-faith" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="what-is-benefit" data-keywords="benefit conspicuous inconspicuous proof happiness transformation">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🌱</span>What is benefit?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Benefit is the positive effect of chanting Nam-Myoho-Renge-Kyo and practicing correctly. Nichiren Shoshu describes two types: conspicuous benefit (clear, immediate results) and inconspicuous benefit (steady inner growth that becomes evident over time).</p>
+            <div class="faq-more" hidden>
+              <p>Conspicuous benefits might include resolving a financial hardship or healing a relationship, while inconspicuous benefits might appear as newfound courage, patience, or wisdom. Both prove that the Mystic Law is alive in our lives.</p>
+              <p>Benefit expands when we share Buddhism with others. Helping someone chant creates immeasurable positive causes and accelerates our own progress.</p>
+              <p class="small">Read more: <a href="what-is-benefit.html">What is Benefit?</a></p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-benefit" data-share-title="What is Benefit?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-benefit" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Experience%20benefit%20through%20Nichiren%20Shoshu%20practice&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-benefit" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq-group" id="faq-community">
+        <h2>Community &amp; Tradition</h2>
+        <div class="faq-items">
+          <article class="faq-item" id="what-is-itai-doshin" data-keywords="itai doshin unity community harmony many in body one in mind">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🤝</span>What is Itai Doshin?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary"><em>Itai doshin</em> means “many in body, one in mind.” It describes the unity of practitioners who share the same goal—kosen-rufu—while valuing each person’s unique mission. When we support one another, we generate tremendous benefit and protection.</p>
+            <div class="faq-more" hidden>
+              <p>Nichiren likened itai doshin to multiple waves combining into a single great wave. When members unite around faith, their collective prayer moves mountains. This spirit is cultivated through temple activities, home visits, and mutual encouragement.</p>
+              <p>Practicing itai doshin involves listening deeply, offering warm guidance, and helping each person reveal their Buddha nature.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-itai-doshin" data-share-title="What is Itai Doshin?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-itai-doshin" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Practice%20Itai%20Doshin%20%E2%80%94%20unity%20in%20Nichiren%20Shoshu&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-itai-doshin" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="what-are-three-treasures" data-keywords="three treasures buddha law priesthood lineage">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🏯</span>What are the Three Treasures?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">The Three Treasures are the Buddha (Nichiren Daishonin), the Law (Nam-Myoho-Renge-Kyo), and the Priesthood (the High Priest and the temple priests who preserve and teach the Law). Relying on all three ensures our practice stays aligned with the True Buddha’s intent.</p>
+            <div class="faq-more" hidden>
+              <p>Nichiren emphasized that the High Priest is the living manifestation of the True Buddha’s will, responsible for transcribing the Gohonzon and guiding believers. By uniting with the Head Temple, we safeguard the pure lineage of faith.</p>
+              <p>Supporting the temple and attending ceremonies expresses gratitude for the Three Treasures and deepens our relationship with them.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-are-three-treasures" data-share-title="What are the Three Treasures?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-are-three-treasures" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Understand%20the%20Three%20Treasures%20of%20Nichiren%20Shoshu&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-are-three-treasures" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="what-is-kosen-rufu" data-keywords="kosen rufu propagation peace happiness mission">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🌍</span>What is Kosen-rufu?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary"><em>Kosen-rufu</em> means widely spreading the true teaching so that people everywhere can establish genuine happiness and peace. Each time we share Buddhism, support a newcomer, or participate in temple activities, we advance kosen-rufu.</p>
+            <div class="faq-more" hidden>
+              <p>Nichiren described kosen-rufu as a movement where the Mystic Law permeates society, transforming it from within. It starts with one person chanting earnestly, then encouraging others to do the same. As more people awaken to Buddhahood, communities become more compassionate and just.</p>
+              <p>Temple activities provide organized ways to contribute—such as home visits, ceremonies, study meetings, and community outreach.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#what-is-kosen-rufu" data-share-title="What is Kosen-rufu?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-kosen-rufu" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Advance%20kosen-rufu%20with%20Myogyoji%20Temple&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23what-is-kosen-rufu" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="nichiren-shoshu" data-keywords="nichiren shoshu tradition head temple taisekiji true buddhism">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🏔️</span>What is Nichiren Shoshu?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Nichiren Shoshu is the school of True Buddhism established by Nichiren Daishonin. Its head temple, Taisekiji, is located at the foot of Mt. Fuji, where the Dai-Gohonzon is enshrined. The High Priest transcribes Gohonzon for believers worldwide.</p>
+            <div class="faq-more" hidden>
+              <p>The name “Nichiren Shoshu” means “True Sect of Nichiren.” It preserves the pure lineage through the Three Treasures and emphasizes personal proof of the Mystic Law in everyday life.</p>
+              <p>Temples like Myogyoji provide a local place to practice, study, and receive guidance while staying connected to Head Temple traditions and ceremonies.</p>
+              <p class="small">Visit the <a href="temples.html">Temples page</a> to explore the global network.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#nichiren-shoshu" data-share-title="What is Nichiren Shoshu?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23nichiren-shoshu" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Learn%20about%20Nichiren%20Shoshu%20Buddhism&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23nichiren-shoshu" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="myogyoji-temple" data-keywords="myogyoji temple chicago community schedule visit">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">📍</span>What is Myogyoji Temple?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Myogyoji Temple serves Nichiren Shoshu believers in the Chicago and Midwest region. It offers daily Gongyo, study meetings, ceremonies, introductory sessions, and one-on-one encouragement.</p>
+            <div class="faq-more" hidden>
+              <p>Located at 1S100 IL Route 59 in West Chicago, the temple is open seven days a week with regular chanting sessions. Visitors can observe practice, learn how to begin chanting at home, and receive guidance from the priest.</p>
+              <p>Contact the temple or check the <a href="calendar.html">calendar</a> to plan a visit.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#myogyoji-temple" data-share-title="What is Myogyoji Temple?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23myogyoji-temple" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Visit%20Myogyoji%20Temple%20in%20West%20Chicago&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23myogyoji-temple" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq-group" id="faq-clarifications">
+        <h2>Comparisons &amp; Clarifications</h2>
+        <div class="faq-items">
+          <article class="faq-item" id="difference-with-zen" data-keywords="zen nichiren difference practice chanting meditation">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">⚖️</span>How is Nichiren Shoshu different from Zen?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Zen Buddhism emphasizes seated meditation and koan practice, while Nichiren Shoshu centers on chanting Nam-Myoho-Renge-Kyo to the Gohonzon. Nichiren Shoshu directly taps the Mystic Law revealed in the Lotus Sutra, enabling immediate access to Buddhahood in daily life.</p>
+            <div class="faq-more" hidden>
+              <p>Zen often focuses on personal insight achieved through silent meditation. Nichiren Shoshu emphasizes a vibrant, vocal practice that fuses self and environment, supported by the lineage of the Three Treasures. It provides a clear doctrinal foundation based on the Lotus Sutra and Nichiren’s writings.</p>
+              <p>Both traditions value discipline and compassion, but Nichiren Shoshu uniquely teaches the single practice suited for the Latter Day of the Law.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#difference-with-zen" data-share-title="Nichiren Shoshu vs. Zen">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23difference-with-zen" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=How%20does%20Nichiren%20Shoshu%20differ%20from%20Zen%3F&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23difference-with-zen" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="why-chant-aloud" data-keywords="chant aloud sound voice determination focus">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🎶</span>Why do we chant out loud?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">Vocalizing Nam-Myoho-Renge-Kyo engages our whole being—mind, body, and environment. Sound carries determination and moves life force; chanting aloud awakens dormant potential and inspires others to join in.</p>
+            <div class="faq-more" hidden>
+              <p>Nichiren taught that the voice does the Buddha’s work. Chanting aloud harmonizes our breath, heart, and environment with the Mystic Law. It also enables us to chant together, amplifying benefit through collective prayer.</p>
+              <p>Maintain a comfortable, steady rhythm. Over time, your voice becomes powerful and confident, reflecting inner transformation.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#why-chant-aloud" data-share-title="Why chant aloud?">Share this article</button>
+                <div class="faq-share-links">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23why-chant-aloud" target="_blank" rel="noopener">Share on Facebook</a>
+                  <a href="https://twitter.com/intent/tweet?text=Discover%20why%20we%20chant%20Nam-Myoho-Renge-Kyo%20aloud&url=https%3A%2F%2Fwww.nstmyogyoji.org%2Ffaq.html%23why-chant-aloud" target="_blank" rel="noopener">Share on X</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq-item" id="do-i-need-background" data-keywords="background requirement tradition newcomers inclusive">
+            <header>
+              <h3><span class="faq-icon" aria-hidden="true">🧑‍🤝‍🧑</span>Do I need prior experience or background?</h3>
+              <button type="button" class="faq-toggle" aria-expanded="false">Read More</button>
+            </header>
+            <p class="faq-summary">No prior background is required. Nichiren Shoshu welcomes people of every age, culture, and faith tradition. The practice is designed for the Latter Day of the Law—an age characterized by diversity and complexity.</p>
+            <div class="faq-more" hidden>
+              <p>All you need is an open heart and a willingness to try chanting. Temple members can guide you through Gongyo, explain silent prayers, and share study materials. Many start with just five minutes of chanting twice a day and gradually build from there.</p>
+              <p>Faith grows through experience. Bring your questions, explore at your own pace, and rely on the temple community for support.</p>
+              <div class="faq-share">
+                <button type="button" class="share-button" data-share-url="https://www.nstmyogyoji.org/faq.html#do-i-need-background" data-share-title="Do I need prior experience?">Share this

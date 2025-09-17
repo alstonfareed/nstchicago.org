@@ -6,26 +6,45 @@
 <meta name="description" content="Nichiren Shoshu temples serve practitioners around the world. Learn about the network of temples and how to connect wherever you are.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/favicon.png">
+<script defer src="js/site.js"></script>
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":["Place","Organization"],
+"name":"Nichiren Shoshu Myogyoji Temple",
+"url":"https://www.nstmyogyoji.org",
+"logo":"https://www.nstmyogyoji.org/assets/favicon.png",
+"address":{"@type":"PostalAddress","streetAddress":"1S100 IL Route 59","addressLocality":"West Chicago","addressRegion":"IL","postalCode":"60185","addressCountry":"US"},
+"telephone":"+1-630-293-5235",
+"sameAs":["https://www.nst.org/"]
+}
+</script>
+<script defer src="js/chatbot.js"></script>
 </head>
 <body>
-<header><div class="container">
-  <nav class="nav" role="navigation" aria-label="Primary">
-    <a class="brand" href="index.html">NST Myogyoji Temple</a>
-    <a href="about.html">About</a>
-    <a href="basics.html">Basics of Practice</a>
-    <a href="faq.html">Facts & FAQ</a>
-    <a href="ceremonies.html">Ceremonies</a>
-    <a href="calendar.html">Calendar</a>
-    <a href="plan-visit.html">Plan a Visit</a>
-    <a href="temples.html" aria-current="page">Temples</a>
-    <a href="resources.html">Resources</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="news.html">News</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</div></header>
+<a href="#main" class="skip-link">Skip to content</a>
+<header>
+  <div class="container topbar">
+    <a href="index.html" class="brand">NST Myogyoji Temple</a>
+    <nav class="nav" role="navigation" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="basics.html">Basics of Practice</a>
+      <a href="faq.html">Facts & FAQ</a>
+      <a href="ceremonies.html">Ceremonies</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="plan-visit.html">Plan a Visit</a>
+      <a href="temples.html" aria-current="page">Temples</a>
+      <a href="resources.html">Resources</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
-<main>
+<main id="main">
   <section class="container">
     <h1>Temples & Community</h1>
     <p class="lead">Nichiren Shoshu has temples worldwide, including the Head Temple Taisekiji in Japan and local temples across North America. Myogyoji serves the Midwest.</p>
@@ -43,7 +62,32 @@
   </section>
 </main>
 
-<footer><div class="container"><p>© <span id="y"></span> nstmyogyoji.org</p></div></footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+<footer>
+  <div class="container footer-content">
+    <div class="footer-brand">
+      <p><strong>Myogyoji Temple (Nichiren Shoshu)</strong></p>
+      <p>1S100 IL Route 59<br>West Chicago, IL 60185</p>
+      <p><a href="tel:+16302935235">630-293-5235</a><br><a href="mailto:chicagomyogyoji@gmail.com">chicagomyogyoji@gmail.com</a></p>
+    </div>
+    <div class="footer-connect">
+      <h3 class="footer-heading">Connect with us</h3>
+      <ul class="social-links" aria-label="Myogyoji Temple social media">
+        <li><a href="https://www.facebook.com/NSTMyogyoji" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.instagram.com/nstmyogyoji" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@NSTMyogyoji" target="_blank" rel="noopener">YouTube</a></li>
+      </ul>
+      <p class="small">Share upcoming ceremonies or FAQ articles with family and friends.</p>
+    </div>
+    <div class="footer-visit">
+      <h3 class="footer-heading">Plan your visit</h3>
+      <p>Introductory meetings, daily Gongyo, and temple tours are available each week.</p>
+      <p><a class="cta cta-inline" href="plan-visit.html">Plan a Visit</a></p>
+    </div>
+  </div>
+  <div class="container footer-note">
+    <p class="small">© <span data-year></span> nstmyogyoji.org • Proudly sharing True Buddhism in Chicagoland.</p>
+  </div>
+</footer>
+
 </body>
 </html>

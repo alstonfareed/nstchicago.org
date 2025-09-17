@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
 <script defer src="js/site.js"></script>
+<script defer src="js/chatbot.js"></script>
 </head>
 <body>
-<script defer src="js/chatbot.js"></script>
 <header><div class="container">
   <nav class="nav" role="navigation" aria-label="Primary">
     <a class="brand" href="index.html">NST Myogyoji Temple</a>
