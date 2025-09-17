@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>What is Nam-Myoho-Renge-Kyo? – Myogyoji Temple</title>
-<meta name="description" content="Understand the meaning of Nam-Myoho-Renge-Kyo and why chanting it is the fundamental practice of Nichiren Shoshu Buddhism.">
+<title>What is Buddhism? – Myogyoji Temple</title>
+<meta name="description" content="Learn how Shakyamuni Buddha founded Buddhism and how its core ideas prepare the way for Nichiren Shoshu practice today.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="assets/favicon.png">
@@ -46,23 +46,29 @@
 
 <main id="main">
   <section class="container">
-    <h1>What is Nam-Myoho-Renge-Kyo?</h1>
-    <p class="lead">Nam-Myoho-Renge-Kyo is the mystic Law of cause and effect. It contains within it both the cause and the effect of achieving Buddhahood.</p>
-    <p>By chanting these words, we connect with our own Buddha nature. Nam-Myoho-Renge-Kyo is the fundamental practice of Nichiren Shoshu through which one’s life condition can be transformed.</p>
+    <h1>What is Buddhism?</h1>
+    <p class="lead">Buddhism was founded by Shakyamuni Buddha around 3,000 years ago in India. He witnessed the suffering of people from every walk of life and searched for a way to end that suffering.</p>
+    <p>Buddhism teaches a path that leads to true freedom from pain, delusion, and dissatisfaction. It points to the potential within every person to awaken wisdom and compassion right where they are.</p>
+    <h2>Key ideas</h2>
+    <ul>
+      <li>The understanding of suffering and its causes.</li>
+      <li>The possibility of transforming one’s life through awakening.</li>
+    </ul>
+    <p>This path ultimately leads to the Mystic Law of Nam-Myoho-Renge-Kyo, which Nichiren Daishonin revealed so that all people can achieve Buddhahood in the Latter Day of the Law.</p>
 
     <div class="kv">
       <div>
         <h3>Related articles</h3>
         <ul class="faq-articles">
-          <li><a href="what-is-benefit.html">What is Benefit?</a></li>
-          <li><a href="what-is-purpose-of-faith.html">What is the Purpose of Faith?</a></li>
-          <li><a href="faq.html#who-is-nichiren">Who is Nichiren Daishonin?</a></li>
+          <li><a href="faq.html#who-is-shakyamuni">Who is Shakyamuni Buddha?</a></li>
+          <li><a href="faq.html#what-is-karma">What is Karma?</a></li>
+          <li><a href="faq.html#what-is-lotus-sutra">What is the Lotus Sutra?</a></li>
         </ul>
       </div>
       <div>
-        <h3>Chant with us</h3>
-        <p><a class="cta" href="calendar.html#this-week">View the Chanting Schedule</a></p>
-        <p class="small">Join daily Gongyo or an introductory meeting to experience how chanting Nam-Myoho-Renge-Kyo changes life from the inside out.</p>
+        <h3>Experience Buddhism</h3>
+        <p><a class="cta" href="plan-visit.html#intro">Join an Introductory Meeting</a></p>
+        <p class="small">Visit Myogyoji Temple to chant, learn directly from the priest, and meet members who practice Nichiren Shoshu every day.</p>
       </div>
     </div>
   </section>
