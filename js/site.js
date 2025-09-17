@@ -49,6 +49,10 @@ const FEED_BASE = "https://script.google.com/macros/s/AKfycbzkKbde7sSmTZjT2py5Gs
       }
     }
 
+    document.querySelectorAll('[data-year]').forEach(el=>{
+      el.textContent = new Date().getFullYear();
+    });
+
     // Contact form → Web App
     const form = sel('form[data-contact="true"]');
     if (form){
@@ -89,6 +93,8 @@ const FEED_BASE = "https://script.google.com/macros/s/AKfycbzkKbde7sSmTZjT2py5Gs
         }catch(e){ (sel('[data-nearby-out]')||{}).textContent="Network error."; }
       });
     }
+
+    initFAQ();
   }
 
   // JSON-LD helper (pages can call: nstSite.injectJSONLD({...}) )
@@ -102,6 +108,98 @@ const FEED_BASE = "https://script.google.com/macros/s/AKfycbzkKbde7sSmTZjT2py5Gs
 
   document.addEventListener('DOMContentLoaded', init);
 })();
+
+function initFAQ(){
+  const faqGroups = document.querySelector('.faq-groups');
+  if (!faqGroups) return;
+
+  const items = Array.from(document.querySelectorAll('.faq-item'));
+  const search = document.getElementById('faq-search');
+  const emptyState = document.querySelector('[data-faq-empty]');
+  const shareStatus = document.querySelector('[data-share-status]');
+
+  function showShareMessage(msg){
+    if (!shareStatus) return;
+    shareStatus.textContent = msg;
+  }
+
+  function updateEmpty(){
+    if (!emptyState) return;
+    const hasVisible = items.some(item => !item.hidden);
+    emptyState.setAttribute('aria-hidden', hasVisible ? 'true' : 'false');
+  }
+
+  items.forEach(item => {
+    const toggle = item.querySelector('.faq-toggle');
+    const more = item.querySelector('.faq-more');
+    if (toggle && more){
+      toggle.addEventListener('click', ()=>{
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        if (expanded){
+          more.hidden = true;
+          toggle.textContent = 'Read More';
+        } else {
+          more.hidden = false;
+          toggle.textContent = 'Show Less';
+        }
+      });
+    }
+
+    const shareBtn = item.querySelector('.share-button');
+    if (shareBtn){
+      shareBtn.addEventListener('click', async ()=>{
+        const url = shareBtn.dataset.shareUrl || location.href;
+        const title = shareBtn.dataset.shareTitle || document.title;
+        try{
+          if (navigator.share){
+            await navigator.share({url, title});
+            showShareMessage(`Shared “${title}”.`);
+            return;
+          }
+        }catch(err){
+          showShareMessage('Sharing canceled.');
+          return;
+        }
+
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          try{
+            await navigator.clipboard.writeText(url);
+            showShareMessage('Copied link to your clipboard.');
+            return;
+          }catch(err){
+            // continue to fallback
+          }
+        }
+
+        const temp = document.createElement('input');
+        temp.value = url;
+        document.body.appendChild(temp);
+        temp.select();
+        document.execCommand && document.execCommand('copy');
+        document.body.removeChild(temp);
+        showShareMessage('Link ready to share.');
+      });
+    }
+  });
+
+  function filterFaq(){
+    if (!search) return;
+    const query = search.value.trim().toLowerCase();
+    items.forEach(item => {
+      const keywords = (item.dataset.keywords || '') + ' ' + item.textContent;
+      const match = keywords.toLowerCase().includes(query);
+      item.hidden = !match;
+    });
+    updateEmpty();
+  }
+
+  if (search){
+    search.addEventListener('input', filterFaq);
+  }
+
+  updateEmpty();
+}
 
 /* Chatbot widget */
 .chat-fab{position:fixed; right:18px; bottom:18px; width:56px; height:56px; border-radius:50%; border:0; background:var(--brand); color:#fff; font-size:24px; box-shadow:0 8px 24px rgba(0,0,0,.2); cursor:pointer}
