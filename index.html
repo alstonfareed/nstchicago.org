@@ -6,7 +6,7 @@
 <meta name="description" content="Myogyoji Temple practices and teaches Nichiren Shoshu True Buddhism in West Chicago, IL. Learn the basics, attend an introductory meeting, and plan a visit.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
-<link rel="icon" href="assets/favicon.png">
+<link rel="icon" type="image/webp" href="assets/favicon.webp">
 <script defer src="js/site.js"></script>
 <script type="application/ld+json">
 {
@@ -14,7 +14,7 @@
 "@type":["Place","Organization"],
 "name":"Nichiren Shoshu Myogyoji Temple",
 "url":"https://www.nstmyogyoji.org",
-"logo":"https://www.nstmyogyoji.org/assets/favicon.png",
+"logo":"https://www.nstmyogyoji.org/assets/favicon.webp",
 "address":{"@type":"PostalAddress","streetAddress":"1S100 IL Route 59","addressLocality":"West Chicago","addressRegion":"IL","postalCode":"60185","addressCountry":"US"},
 "telephone":"+1-630-293-5235",
 "sameAs":["https://www.nst.org/"]
@@ -24,12 +24,17 @@
 </head>
 <body>
 <a href="#main" class="skip-link">Skip to content</a>
-<header>
+
+<header class="site-header">
   <div class="container topbar">
-    <a href="index.html" class="brand">
-      <img src="assets/top_logo.svg" class="brand-mark" alt="NST Myogyoji Temple crest">
-      <span class="brand-text">NST Myogyoji Temple</span>
+    <a href="index.html" class="brand" aria-label="Myogyoji Temple home">
+      <img src="assets/img/top_logo.png" class="brand-mark" alt="Nichiren Shoshu crest">
+      <div>
+        <span class="brand-name">Myogyoji Temple</span>
+        <span class="brand-tagline">Nichiren Shoshu Buddhism</span>
+      </div>
     </a>
+
     <nav class="nav" role="navigation" aria-label="Primary">
       <a href="index.html" aria-current="page">Home</a>
       <a href="about.html">About</a>
@@ -44,36 +49,74 @@
       <a href="news.html">News</a>
       <a href="contact.html">Contact</a>
     </nav>
+
+    <div class="header-tools">
+      <label for="language-select" class="language-label">Translate</label>
+      <select id="language-select" class="language-select" data-translate-select>
+        <option value="">English</option>
+        <option value="es">Español</option>
+        <option value="ja">日本語</option>
+        <option value="zh-CN">中文（简体）</option>
+        <option value="zh-TW">中文（繁體）</option>
+        <option value="ko">한국어</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="tl">Tagalog</option>
+        <option value="hi">हिन्दी</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="pt">Português</option>
+        <option value="ar">العربية</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Banner uses the SAME .container as the rest of the page so edges align -->
+  <div class="site-banner">
+    <div class="container">
+      <img
+        class="hero-img"
+        src="assets/img/myogyoji-banner.webp"
+        alt="Myogyoji Temple banner with Nichiren Shoshu calligraphy"
+        loading="eager" decoding="async">
+    </div>
   </div>
 </header>
 
 <main id="main">
-  <section class="hero hero-pattern" aria-labelledby="hero-title">
+  <section class="hero" aria-labelledby="hero-title">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <span class="badge">Nichiren Shoshu in Chicagoland</span>
-        <h1 id="hero-title">Practice True Buddhism at Myogyoji Temple</h1>
+        <a class="badge badge-link" href="hokkeko-map.html">
+          Nichiren Shoshu in Chicagoland and throughout Midwest and Southern states (17-state map)
+          <span aria-hidden="true">→</span>
+        </a>
+        <h1 id="hero-title">Myogyoji Temple</h1>
         <p class="lead">Myogyoji Temple is a Nichiren Shoshu (日蓮正宗) Buddhist temple in West Chicago, Illinois. Together we chant Nam-Myoho-Renge-Kyo, study the Gosho, and share the Mystic Law so every person can reveal Buddhahood.</p>
         <p>Whether you are encountering Buddhism for the first time or deepening long-standing faith, you will find priests and members ready to welcome you, answer questions, and chant alongside you. Each meeting, study session, and ceremony is a moment to polish the mirror of life and draw out wisdom, courage, and joy.</p>
+        <p>Our community now embraces practitioners across 17 Midwestern and Southern states. Explore the <a href="hokkeko-map.html">interactive Hokkeko map</a> to see how Myogyoji Temple supports believers throughout the region.</p>
         <div class="hero-cta">
           <a class="cta" href="plan-visit.html#intro">Plan a Visit</a>
-          <a class="cta-inline" href="basics.html">Learn to Chant</a>
-          <a class="cta-inline" href="assets/img/Intro.mp4">Intro Video (MP4)</a>
-          <a href="calendar.html#this-week">Weekly Schedule</a>
+          <a class="cta" href="basics.html">Learn to Chant</a>
+          <a class="cta" href="assets/video/Intro.mp4">Watch Intro Video</a>
+          <a class="cta" href="hokkeko-map.html">17-State Hokkeko Map</a>
+          <a class="cta-inline" href="calendar.html#this-week">Weekly Schedule</a>
         </div>
         <div class="notice small">
           <strong>Introductory Meetings.</strong> Sundays after Morning Gongyo and Wednesdays at 6:30 PM (slow Gongyo for beginners). Reserve your spot on the <a href="plan-visit.html#intro">plan a visit page</a> and preview the <a href="calendar.html#detailed-schedule">full schedule</a>.
         </div>
       </div>
+
       <div class="hero-media">
         <figure class="hero-photo">
           <img src="assets/img/myogyoji_group.jpg" alt="Sangha members gathered at Myogyoji Temple" loading="lazy">
         </figure>
+
         <div class="hero-video-card" id="intro-video">
           <h2>Watch: Introduction to Nichiren Shoshu</h2>
+          <p>Step inside Myogyoji Temple, hear the rhythm of Gongyo, and learn how chanting Nam-Myoho-Renge-Kyo transforms daily life.</p>
           <video controls preload="metadata" poster="assets/img/myogyoji_group.jpg">
-            <source src="assets/img/Intro.mp4" type="video/mp4">
-            Your browser does not support embedded video. <a href="assets/img/Intro.mp4">Download the intro video</a> instead.
+            <source src="assets/video/Intro.mp4" type="video/mp4">
+            Your browser does not support embedded video. <a href="assets/video/Intro.mp4">Download the intro video</a> instead.
           </video>
           <p class="small">Prefer streaming? <a href="https://youtube.com/@nichirenshoshumyogyojibuddhist?si=LNhzrGylTMDNgv65" target="_blank" rel="noopener">Visit our YouTube channel</a> for lectures, daimoku, and ceremonies.</p>
         </div>
@@ -114,6 +157,7 @@
         </blockquote>
         <p class="small">—Nichiren Daishonin, <em>Attaining Buddhahood in This Lifetime</em> (Gosho, p. 46)</p>
       </article>
+
       <article class="schedule-card" aria-labelledby="next-ceremony">
         <h2 id="next-ceremony">Sunday Ceremony Snapshot</h2>
         <p class="small">September 2025</p>
@@ -281,7 +325,7 @@
     </div>
   </div>
   <div class="container footer-note">
-    <p class="small">© <span data-year></span> nstmyogyoji.org • Proudly sharing True Buddhism in Chicagoland.</p>
+    <p class="small">© <span data-year></span> nstmyogyoji.org • Proudly sharing True Buddhism in Chicagoland and throughout the Midwest & Southern states.</p>
   </div>
 </footer>
 

@@ -6,7 +6,7 @@
 <meta name="description" content="Learn how Shakyamuni Buddha founded Buddhism and how its core ideas prepare the way for Nichiren Shoshu practice today.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/style.css">
-<link rel="icon" href="assets/favicon.png">
+<link rel="icon" type="image/webp" href="assets/favicon.webp">
 <script defer src="js/site.js"></script>
 <script type="application/ld+json">
 {
@@ -14,7 +14,7 @@
 "@type":["Place","Organization"],
 "name":"Nichiren Shoshu Myogyoji Temple",
 "url":"https://www.nstmyogyoji.org",
-"logo":"https://www.nstmyogyoji.org/assets/favicon.png",
+"logo":"https://www.nstmyogyoji.org/assets/favicon.webp",
 "address":{"@type":"PostalAddress","streetAddress":"1S100 IL Route 59","addressLocality":"West Chicago","addressRegion":"IL","postalCode":"60185","addressCountry":"US"},
 "telephone":"+1-630-293-5235",
 "sameAs":["https://www.nst.org/"]
@@ -26,7 +26,10 @@
 <a href="#main" class="skip-link">Skip to content</a>
 <header>
   <div class="container topbar">
-    <a href="index.html" class="brand">NST Myogyoji Temple</a>
+    <a href="index.html" class="brand">
+      <img src="assets/img/top_logo.png" class="brand-mark" alt="Nichiren Shoshu Myogyoji Temple crest">
+      <span class="brand-text">NST Myogyoji Temple</span>
+    </a>
     <nav class="nav" role="navigation" aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -42,19 +45,56 @@
       <a href="contact.html">Contact</a>
     </nav>
   </div>
+  <div class="site-banner">
+    <img src="assets/img/myogyoji banner.webp" alt="Members display the Myogyoji Temple banner with Nichiren Shoshu calligraphy" loading="lazy">
+  </div>
 </header>
 
 <main id="main">
-  <section class="container">
+  <article class="container longform">
     <h1>What is Buddhism?</h1>
-    <p class="lead">Buddhism was founded by Shakyamuni Buddha around 3,000 years ago in India. He witnessed the suffering of people from every walk of life and searched for a way to end that suffering.</p>
-    <p>Buddhism teaches a path that leads to true freedom from pain, delusion, and dissatisfaction. It points to the potential within every person to awaken wisdom and compassion right where they are.</p>
-    <h2>Key ideas</h2>
+    <p class="lead">Buddhism began more than 3,000 years ago when Shakyamuni Buddha awakened to the law that allows every person to transform suffering into wisdom and compassion. His teaching is not a philosophy reserved for specialists—it is a way of life that reveals the unlimited potential within ordinary people.</p>
+    <p>Shakyamuni observed that all people encounter birth, aging, sickness, and death. He searched for a path that would free people from these sufferings and enable them to experience genuine happiness. The result was Buddhism: a teaching that explains the workings of life and offers concrete practice so anyone can awaken their inherent Buddhahood.</p>
+
+    <h2>Shakyamuni Buddha’s quest to end suffering</h2>
+    <p>After years of meditation and study, Shakyamuni recognized that life operates through the principle of cause and effect. Thoughts, words, and deeds create causes that inevitably result in corresponding effects. Understanding this principle, he taught people how to make causes rooted in compassion and wisdom.</p>
     <ul>
-      <li>The understanding of suffering and its causes.</li>
-      <li>The possibility of transforming one’s life through awakening.</li>
+      <li><strong>The Four Noble Truths</strong> clarify that suffering has identifiable causes and that liberation is possible.</li>
+      <li><strong>The Eightfold Path</strong> encourages people to align speech, action, livelihood, and mindset with noble intent.</li>
+      <li><strong>Dependent origination</strong> reveals that nothing exists in isolation; our environment changes when our life does.</li>
     </ul>
-    <p>This path ultimately leads to the Mystic Law of Nam-Myoho-Renge-Kyo, which Nichiren Daishonin revealed so that all people can achieve Buddhahood in the Latter Day of the Law.</p>
+    <blockquote>“The purpose of the appearance in this world of Shakyamuni Buddha, the lord of teachings, lies in his behavior as a human being.” —Nichiren Daishonin, <em>The Three Kinds of Treasure</em></blockquote>
+
+    <h2>The Lotus Sutra promises universal enlightenment</h2>
+    <p>Late in his ministry, Shakyamuni expounded the Lotus Sutra. In it he declared that enlightenment is not limited to priests or sages—it is the birthright of all people. The sutra describes the Ceremony in the Air, where countless Buddhas pledge to uphold the Mystic Law so it can be spread in the Latter Day of the Law.</p>
+    <p>The Lotus Sutra also foretells the appearance of the True Buddha who will reveal the ultimate practice for this age. Nichiren Daishonin identified the essence of the sutra as Nam-Myoho-Renge-Kyo, the title of the Mystic Law itself.</p>
+    <ul>
+      <li>The Buddha’s life span is eternal; enlightenment is not confined to a single lifetime.</li>
+      <li>Every person possesses the Ten Worlds—life states ranging from suffering to Buddhahood.</li>
+      <li>When we chant Nam-Myoho-Renge-Kyo, we participate in the Ceremony in the Air each day.</li>
+    </ul>
+
+    <h2>Nichiren Daishonin reveals the Mystic Law</h2>
+    <p>In 13th-century Japan, Nichiren Daishonin thoroughly studied every Buddhist teaching and concluded that only the Lotus Sutra reveals the practice for the Latter Day. On April 28, 1253, he declared Nam-Myoho-Renge-Kyo and spent the rest of his life teaching people to chant it aloud.</p>
+    <p>He inscribed the Gohonzon—a mandala that embodies the life of the True Buddha—so that all people can summon the same enlightened life-condition. He also established the Three Treasures of True Buddhism: the Buddha (Nichiren), the Law (Nam-Myoho-Renge-Kyo), and the priesthood that safeguards the teaching.</p>
+    <div class="notice">
+      <p>Chanting Nam-Myoho-Renge-Kyo is how modern practitioners directly connect with the same Law that Shakyamuni realized and Nichiren revealed. Each daimoku revitalizes our lives and shifts our environment.</p>
+    </div>
+
+    <h2>Living Buddhism at Myogyoji Temple</h2>
+    <p>Buddhism flourishes in community. At Myogyoji Temple we chant together, study the Gosho, and receive guidance from the resident priest. Practice becomes meaningful when it shows up in the victories of daily life.</p>
+    <ul>
+      <li><strong>Daily practice:</strong> Morning and evening Gongyo with daimoku awaken Buddhahood and polish the mirror of life.</li>
+      <li><strong>Study:</strong> Learning the teachings builds conviction so we can face obstacles with wisdom.</li>
+      <li><strong>For others:</strong> Sharing Buddhism—known as <em>shakubuku</em>—creates causes for widespread happiness.</li>
+    </ul>
+    <h3>How to start exploring today</h3>
+    <ol>
+      <li>Visit an introductory meeting to learn the basics of chanting.</li>
+      <li>Establish a brief daily practice at home, even if it begins with five minutes twice a day.</li>
+      <li>Stay connected with temple members who can encourage you and answer questions.</li>
+    </ol>
+    <p>Buddhism is ultimately proven through experience. As you chant and participate, you will see your life move toward hope, clarity, and joy.</p>
 
     <div class="kv">
       <div>
@@ -71,7 +111,7 @@
         <p class="small">Visit Myogyoji Temple to chant, learn directly from the priest, and meet members who practice Nichiren Shoshu every day.</p>
       </div>
     </div>
-  </section>
+  </article>
 </main>
 
 <footer>
@@ -97,7 +137,7 @@
     </div>
   </div>
   <div class="container footer-note">
-    <p class="small">© <span data-year></span> nstmyogyoji.org • Proudly sharing True Buddhism in Chicagoland.</p>
+    <p class="small">© <span data-year></span> nstmyogyoji.org • Proudly sharing True Buddhism in Chicagoland and throughout the Midwest & Southern states.</p>
   </div>
 </footer>
 

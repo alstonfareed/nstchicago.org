@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>What is Kosen-rufu? – Myogyoji Temple</title>
+<meta name="description" content="Learn how kosen-rufu—the widespread propagation of the Mystic Law—guides Nichiren Shoshu believers at Myogyoji Temple to work for happiness and peace.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/webp" href="assets/favicon.webp">
+<script defer src="js/site.js"></script>
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":["Place","Organization"],
+"name":"Nichiren Shoshu Myogyoji Temple",
+"url":"https://www.nstmyogyoji.org",
+"logo":"https://www.nstmyogyoji.org/assets/favicon.webp",
+"address":{"@type":"PostalAddress","streetAddress":"1S100 IL Route 59","addressLocality":"West Chicago","addressRegion":"IL","postalCode":"60185","addressCountry":"US"},
+"telephone":"+1-630-293-5235",
+"sameAs":["https://www.nst.org/"]
+}
+</script>
+<script defer src="js/chatbot.js"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<header>
+  <div class="container topbar">
+    <a href="index.html" class="brand">
+      <img src="assets/img/top_logo.png" class="brand-mark" alt="Nichiren Shoshu Myogyoji Temple crest">
+      <span class="brand-text">NST Myogyoji Temple</span>
+    </a>
+    <nav class="nav" role="navigation" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="basics.html">Basics of Practice</a>
+      <a href="faq.html">Facts & FAQ</a>
+      <a href="ceremonies.html">Ceremonies</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="plan-visit.html">Plan a Visit</a>
+      <a href="temples.html">Temples</a>
+      <a href="resources.html" aria-current="page">Resources</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+  <div class="site-banner">
+    <div class="container site-banner-inner">
+      <img src="assets/img/myogyoji banner.webp" alt="Members display the Myogyoji Temple banner with Nichiren Shoshu calligraphy" loading="lazy">
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <article class="container longform">
+    <h1>What is Kosen-rufu?</h1>
+    <p class="lead"><em>Kosen-rufu</em> means the widespread propagation of the Mystic Law for the happiness of all people and the peace of the land. It is the shared mission of the Priesthood and laity in Nichiren Shoshu.</p>
+
+    <h2>Nichiren Daishonin’s vow</h2>
+    <p>Nichiren risked his life to declare Nam-Myoho-Renge-Kyo so that every person could reveal Buddhahood. He urged his disciples to work with the same determination until the Mystic Law permeates society. Kosen-rufu is not an abstract concept—it is the pledge to relieve suffering here and now.</p>
+
+    <h2>How Myogyoji Temple advances kosen-rufu</h2>
+    <ul>
+      <li><strong>Daily practice:</strong> Members chant for the happiness of their families, workplaces, and communities.</li>
+      <li><strong>Temple activities:</strong> Oko, study meetings, and special ceremonies deepen faith and transmit the Gosho spirit.</li>
+      <li><strong>Shakubuku:</strong> Sharing Buddhism through warm dialogue, home visits, and introductory meetings.</li>
+      <li><strong>Regional unity:</strong> The 17-state Hokkeko network around Myogyoji collaborates on daimoku campaigns and study tours.</li>
+    </ul>
+
+    <h2>Peace of the land begins with one person</h2>
+    <p>When even one person
